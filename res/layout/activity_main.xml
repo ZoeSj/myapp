@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+      <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+  >
+     <ImageView  
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        android:layout_height="wrap_content" />
+     </LinearLayout>
+    <LinearLayout
+     
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:orientation="horizontal" >
+
+  <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+   <ImageButton
+        android:id="@+id/eat_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eat"
+        android:background="@drawable/img_btn_selector" />
+        
+  <TextView 
+        android:id="@+id/eat_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="喝" />       
+    </LinearLayout>
+   <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+   <ImageButton
+        android:id="@+id/drink_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drink"
+        android:background="@drawable/img_btn_selector" />
+        
+  <TextView 
+        android:id="@+id/drink_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="喝" />       
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+   <ImageButton
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play"
+        android:background="@drawable/img_btn_selector" />
+        
+  <TextView 
+        android:id="@+id/play_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="玩" />       
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+   <ImageButton
+        android:id="@+id/happy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/happy"
+        android:background="@drawable/img_btn_selector" />
+        
+  <TextView 
+        android:id="@+id/happy_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乐" />       
+    </LinearLayout>   
+</LinearLayout> 
+
+</LinearLayout>
